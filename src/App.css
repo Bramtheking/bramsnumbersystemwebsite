@@ -4,76 +4,56 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #f5f2eb;
   color: #4e342e;
-  line-height: 1.6;
 }
 
 /* Header */
 .App-header {
   background-color: #3e2723;
   color: #fff;
-  padding: 3rem;
+  padding: 2rem;
   text-align: center;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .App-header h1 {
   margin: 0;
-  font-size: 3.5rem;
-  letter-spacing: 2px;
-  font-weight: bold;
+  font-size: 3rem;
+  letter-spacing: 1px;
 }
 
 .App-header p {
-  font-size: 1.3rem;
-  margin-top: 1rem;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Section Styles */
-section {
-  padding: 3rem 1.5rem;
-  margin: 2rem 0;
-  background-color: #fff;
-  border-radius: 12px;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.05);
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-section h2 {
-  font-size: 2.5rem;
-  color: #3e2723;
-  margin-bottom: 1.5rem;
-}
-
-section p {
   font-size: 1.2rem;
-  color: #5d4037;
+  margin-top: 1rem;
 }
 
-/* Features Section */
+/* Sections */
+.about-brams, .features, .how-it-works {
+  padding: 2rem;
+  margin: 1rem 0;
+}
+
+.about-brams h2, .features h2, .how-it-works h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-brams p, .how-it-works p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
 .features ul {
   list-style-type: none;
   padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .features li {
-  flex: 0 0 45%;
-  font-size: 1.2rem;
-  padding: 1rem;
+  font-size: 1.1rem;
+  padding: 0.5rem 0;
   background-color: #8d6e63;
   color: white;
-  border-radius: 10px;
-  margin-bottom: 1rem;
-  padding-left: 1.5rem;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease-in-out;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
 }
 
 .features li:before {
@@ -82,89 +62,19 @@ section p {
   color: #fffde7;
 }
 
-.features li:hover {
-  background-color: #795548;
-}
-
-/* How It Works Section */
-.how-it-works {
-  background-color: #f5f2eb;
-  padding: 3rem 2rem;
-  border-radius: 12px;
-  text-align: center;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.05);
-}
-
-.how-it-works h2 {
-  font-size: 2.5rem;
-  color: #4e342e;
-}
-
-.how-it-works p {
-  font-size: 1.2rem;
-  color: #5d4037;
-  max-width: 700px;
-  margin: 1.5rem auto;
-}
-
-/* Button Styles */
-.button-primary {
-  background-color: #6d4c41;
-  color: #fff;
-  padding: 1rem 2rem;
-  border: none;
-  border-radius: 8px;
-  font-size: 1.2rem;
-  cursor: pointer;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.button-primary:hover {
-  background-color: #5d4037;
-  transform: translateY(-3px);
-}
-
 /* Footer */
 .App-footer {
   background-color: #3e2723;
   color: #fff;
   text-align: center;
-  padding: 2.5rem;
-  margin-top: 2rem;
+  padding: 2rem;
 }
 
 .App-footer a {
   color: #ffcc80;
   text-decoration: none;
-  font-size: 1.1rem;
 }
 
 .App-footer a:hover {
   text-decoration: underline;
-}
-
-.App-footer p {
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
-}
-
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-  .features li {
-    flex: 0 0 100%;
-  }
-
-  .App-header h1 {
-    font-size: 2.5rem;
-  }
-
-  section h2 {
-    font-size: 2rem;
-  }
-
-  .button-primary {
-    padding: 0.8rem 1.5rem;
-    font-size: 1rem;
-  }
 }
